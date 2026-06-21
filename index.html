@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<meta name="theme-color" content="#09090D" />
+<title>Onarvo Group — Operational software and services</title>
+<meta name="description" content="Onarvo Group builds and operates software businesses and services companies. Loaditude, Build Momentum, Digital Garage, and The WILD Axis Group." />
+<meta property="og:title" content="Onarvo Group" />
+<meta property="og:description" content="A UK operator group building software and services businesses. Loaditude · Build Momentum · Digital Garage · WILD Axis." />
+<meta property="og:type" content="website" />
+<!-- If you deploy on a domain other than onarvo.group, update the absolute URLs below (canonical, og:url, og:image, twitter:image). -->
+<link rel="canonical" href="https://onarvo.group/" />
+<link rel="sitemap" href="/sitemap.xml" type="application/xml" />
+<meta property="og:url" content="https://onarvo.group/" />
+<meta property="og:site_name" content="Onarvo Group" />
+<meta property="og:image" content="https://onarvo.group/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Onarvo Group — software and services, built to last. Loaditude, Build Momentum, Digital Garage, WILD Axis." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Onarvo Group" />
+<meta name="twitter:description" content="A UK operator group building software and services businesses. Loaditude, Build Momentum, Digital Garage, and The WILD Axis Group." />
+<meta name="twitter:image" content="https://onarvo.group/og-image.png" />
+<!-- Vercel Web Analytics: cookieless, no consent banner needed. Auto-active once Web Analytics is enabled on the project in the Vercel dashboard. -->
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<style>
+  :root{
+    --bg:#09090D; --panel:#111117; --panel2:#17171F;
+    --text:#EEEEF2; --muted:#7A7A8C; --line:#222230;
+    --white:#FFFFFF;
+    --radius:14px; --maxw:1040px;
+    --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+    /* venture accent colours */
+    --loaditude:#2A7FED; --loaditude-bg:rgba(42,127,237,.1);
+    --bm:#C9D82A; --bm-bg:rgba(201,216,42,.1);
+    --dg:#7C6EFA; --dg-bg:rgba(124,110,250,.1);
+    --wa:#B8922A; --wa-bg:rgba(184,146,42,.1);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* NAV */
+  nav{border-bottom:1px solid var(--line);padding:18px 24px;max-width:var(--maxw);margin:0 auto;display:flex;align-items:center;justify-content:space-between}
+  .brand{font-weight:850;font-size:18px;letter-spacing:-.03em;color:var(--white)}
+  .nav-right a{font-size:14px;color:var(--muted);transition:.2s}
+  .nav-right a:hover{color:var(--text)}
+
+  /* HERO */
+  header{padding:88px 0 64px;position:relative}
+  header::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+    background:
+      radial-gradient(600px 400px at 80% -5%, rgba(42,127,237,.1), transparent 60%),
+      radial-gradient(500px 350px at 10% 30%, rgba(124,110,250,.07), transparent 60%);
+  }
+  header .wrap{position:relative;z-index:1}
+  .badge{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:var(--muted);background:var(--panel);border:1px solid var(--line);padding:5px 13px;border-radius:999px;margin-bottom:26px}
+  h1{font-size:clamp(36px,6vw,64px);line-height:1.03;letter-spacing:-.045em;font-weight:850;max-width:16ch}
+  .sub{margin-top:22px;font-size:clamp(16px,2vw,19px);color:var(--muted);max-width:54ch;line-height:1.65}
+  .two-engines{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:42px}
+  .engine{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+  .engine-label{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+  .engine h3{font-size:17px;font-weight:750;letter-spacing:-.01em}
+  .engine p{font-size:14px;color:var(--muted);margin-top:7px;line-height:1.55}
+
+  /* VENTURES */
+  section{padding:72px 0}
+  hr.sec{border:none;border-top:1px solid var(--line);margin:0}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  h2{font-size:clamp(24px,3.5vw,36px);letter-spacing:-.03em;font-weight:800;margin-top:12px;line-height:1.15}
+  .lead{color:var(--muted);font-size:17px;margin-top:14px;max-width:60ch;line-height:1.65}
+
+  .ventures{display:grid;gap:18px;margin-top:44px}
+  .venture{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:start;transition:.2s}
+  .venture:hover{border-color:rgba(255,255,255,.1)}
+  .v-left{}
+  .v-type{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+  .venture[data-v="loaditude"] .v-type{color:var(--loaditude)}
+  .venture[data-v="bm"]        .v-type{color:var(--bm)}
+  .venture[data-v="dg"]        .v-type{color:var(--dg)}
+  .venture[data-v="wa"]        .v-type{color:var(--wa)}
+  .v-name{font-size:21px;font-weight:800;letter-spacing:-.02em}
+  .v-tag{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:4px 10px;border-radius:999px;margin-left:10px;vertical-align:middle}
+  .v-tag.live{background:rgba(61,214,140,.1);border:1px solid rgba(61,214,140,.3);color:#3DD68C}
+  .v-tag.beta{background:rgba(255,193,7,.1);border:1px solid rgba(255,193,7,.25);color:#FFC107}
+  .v-desc{font-size:15.5px;color:var(--muted);margin-top:12px;line-height:1.65;max-width:58ch}
+  .v-facts{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+  .v-fact{font-size:13px;color:var(--muted);background:var(--panel2);border:1px solid var(--line);padding:5px 12px;border-radius:8px}
+  .v-link{white-space:nowrap;font-size:13.5px;font-weight:600;border:1px solid var(--line);padding:10px 16px;border-radius:10px;transition:.2s;text-align:center;color:var(--text)}
+  .v-link:hover{border-color:rgba(255,255,255,.25);background:var(--panel2)}
+
+  /* APPROACH */
+  .approach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+  .approach-card{background:var(--panel2);border:1px solid var(--line);border-radius:var(--radius);padding:26px 22px}
+  .approach-card h3{font-size:17px;font-weight:700}
+  .approach-card p{font-size:14.5px;color:var(--muted);margin-top:9px;line-height:1.6}
+
+  /* CONTACT */
+  .contact-block{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:22px;padding:52px 40px;text-align:center}
+  .contact-block h2{margin:12px auto 0;max-width:24ch}
+  .contact-block .lead{margin:14px auto 0}
+  .contact-options{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:30px}
+  .c-btn{display:inline-flex;align-items:center;gap:9px;font-size:15px;font-weight:700;padding:14px 22px;border-radius:11px;border:1px solid var(--line);transition:.2s}
+  .c-btn:hover{border-color:rgba(255,255,255,.25);background:var(--panel2)}
+  .c-btn.primary{background:var(--white);color:#09090D;border-color:var(--white)}
+  .c-btn.primary:hover{background:#E8E8F0;border-color:#E8E8F0}
+
+  /* FOOTER */
+  footer{border-top:1px solid var(--line);padding:36px 0 56px;margin-top:30px}
+  .foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px}
+  .foot-left small{color:var(--muted);font-size:13px}
+  .foot-links{display:flex;flex-wrap:wrap;gap:18px}
+  .foot-links a{font-size:13px;color:var(--muted);transition:.2s}
+  .foot-links a:hover{color:var(--text)}
+
+  @media(max-width:800px){
+    .two-engines,.approach-grid{grid-template-columns:1fr}
+    .venture{grid-template-columns:1fr}
+    .contact-block{padding:36px 20px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="wrap">
+  <div class="brand">Onarvo Group</div>
+  <div class="nav-right">
+    <a href="#ventures">Ventures</a>
+  </div>
+</nav>
+
+<header>
+<div class="wrap">
+  <span class="badge">UK · Founded 2024</span>
+  <h1>Software and services, built to last.</h1>
+  <p class="sub">Onarvo Group builds and operates businesses across two engines — services that generate cash from day one, and software that compounds over time. The two fund and inform each other.</p>
+  <div class="two-engines">
+    <div class="engine">
+      <div class="engine-label">Engine 1 — Services</div>
+      <h3>Revenue from day one</h3>
+      <p>Operational services businesses that generate margin immediately. The cash engine that funds the software bets.</p>
+    </div>
+    <div class="engine">
+      <div class="engine-label">Engine 2 — Software</div>
+      <h3>Compounding revenue</h3>
+      <p>SaaS products built for operators. Durable IP that grows with the customer base and is sellable at scale.</p>
+    </div>
+  </div>
+</div>
+</header>
+
+<hr class="sec" />
+
+<section class="wrap" id="ventures">
+  <span class="eyebrow">The portfolio</span>
+  <h2>Four ventures, one flywheel.</h2>
+  <p class="lead">WILD Axis funds the group's runway and runs on Loaditude. Build Momentum and Digital Garage extend the model to direct-to-consumer and client software.</p>
+
+  <div class="ventures">
+
+    <div class="venture" data-v="loaditude">
+      <div class="v-left">
+        <div class="v-type">SaaS · Warehouse &amp; Transport</div>
+        <div class="v-name">Loaditude <span class="v-tag live">Live</span></div>
+        <p class="v-desc">All-in-one operations software for warehouse and retail-logistics businesses — goods-in to proof-of-delivery in one coherent system. Built for mid-market operators who've outgrown spreadsheets but can't justify enterprise WMS contracts.</p>
+        <div class="v-facts">
+          <span class="v-fact">Inventory &amp; receiving</span>
+          <span class="v-fact">Kitting &amp; VAS</span>
+          <span class="v-fact">Transport management</span>
+          <span class="v-fact">Driver mobile app</span>
+          <span class="v-fact">Client portal</span>
+        </div>
+      </div>
+      <a class="v-link" href="https://loaditude.com" target="_blank" rel="noopener">loaditude.com ↗</a>
+    </div>
+
+    <div class="venture" data-v="bm">
+      <div class="v-left">
+        <div class="v-type">iOS App · Consumer Fitness</div>
+        <div class="v-name">Build Momentum <span class="v-tag live">Live</span></div>
+        <p class="v-desc">A gym tracking app built around a forgiving weekly streak — one rest day never resets it. Auto-detects PRs, shows progress clearly, and logs a session in two taps. No account. Fully offline. Free on iPhone.</p>
+        <div class="v-facts">
+          <span class="v-fact">Weekly streak model</span>
+          <span class="v-fact">Auto PR detection</span>
+          <span class="v-fact">Offline-first · local SQLite</span>
+          <span class="v-fact">No account required</span>
+        </div>
+      </div>
+      <a class="v-link" href="https://apps.apple.com/app/id6780683361" target="_blank" rel="noopener">App Store ↗</a>
+    </div>
+
+    <div class="venture" data-v="dg">
+      <div class="v-left">
+        <div class="v-type">Product Studio · B2B Software</div>
+        <div class="v-name">Digital Garage</div>
+        <p class="v-desc">Onarvo Group's product studio. Builds mobile apps, web platforms, and B2B SaaS tools for external clients — end-to-end, from brief to shipped. The team runs its own products (Loaditude, Build Momentum) alongside client work.</p>
+        <div class="v-facts">
+          <span class="v-fact">Mobile apps (iOS/Android)</span>
+          <span class="v-fact">Web platforms &amp; SaaS</span>
+          <span class="v-fact">Internal tooling &amp; MVPs</span>
+          <span class="v-fact">React Native · Next.js · TypeScript</span>
+        </div>
+      </div>
+      <a class="v-link" href="#contact">Work with us ↗</a>
+    </div>
+
+    <div class="venture" data-v="wa">
+      <div class="v-left">
+        <div class="v-type">Services · UK Retail Implementation</div>
+        <div class="v-name">The WILD Axis Group <span class="v-tag live">Operating</span></div>
+        <p class="v-desc">End-to-end UK retail implementation — from warehouse to store floor. Storage and kitting, nationwide transport, POS installations, and rollout management. 98% first-time-right, 24-hour quote turnaround.</p>
+        <div class="v-facts">
+          <span class="v-fact">Storage &amp; kitting (30k–75k sq ft)</span>
+          <span class="v-fact">Nationwide transport</span>
+          <span class="v-fact">Installations &amp; field teams</span>
+          <span class="v-fact">24h quote · 24/7 support</span>
+        </div>
+      </div>
+      <a class="v-link" href="https://thewildaxisgroup.com" target="_blank" rel="noopener">thewildaxisgroup.com ↗</a>
+    </div>
+
+  </div>
+</section>
+
+<hr class="sec" />
+
+<section class="wrap">
+  <span class="eyebrow">How we operate</span>
+  <h2>The things we don't compromise on.</h2>
+  <div class="approach-grid">
+    <div class="approach-card">
+      <h3>Ship before you raise</h3>
+      <p>Every product in the portfolio went live before asking for external capital. Real customers tell you things investors can't.</p>
+    </div>
+    <div class="approach-card">
+      <h3>Services funds software</h3>
+      <p>WILD Axis generates margin from day one. That cash funds Loaditude and Build Momentum without dilution. The two engines are designed to compound together.</p>
+    </div>
+    <div class="approach-card">
+      <h3>Skin in the game</h3>
+      <p>We run Loaditude in our own operations before selling it. We built Build Momentum because we needed it. Software we wouldn't use ourselves doesn't get shipped.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="sec" />
+
+<section class="wrap" id="contact">
+  <div class="contact-block">
+    <span class="eyebrow">Get in touch</span>
+    <h2>Partnerships, press, and client enquiries.</h2>
+    <p class="lead">For Digital Garage client work, WILD Axis implementation programmes, or Loaditude founding-seat enquiries — start here.</p>
+    <div class="contact-options">
+      <a class="c-btn primary" href="mailto:terryenigbonjaiye@gmail.com" onclick="try{window.va('event',{name:'email_click',source:'landing'});}catch(e){}">Email us directly</a>
+      <a class="c-btn" href="https://loaditude.com" target="_blank" rel="noopener">Loaditude →</a>
+      <a class="c-btn" href="https://thewildaxisgroup.com" target="_blank" rel="noopener">WILD Axis →</a>
+      <a class="c-btn" href="https://apps.apple.com/app/id6780683361" target="_blank" rel="noopener">Build Momentum →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div class="foot">
+    <div class="foot-left">
+      <small><strong style="color:var(--text)">Onarvo Group</strong> — UK. © 2026.</small>
+    </div>
+    <div class="foot-links">
+      <a href="https://loaditude.com" target="_blank" rel="noopener">Loaditude</a>
+      <a href="https://apps.apple.com/app/id6780683361" target="_blank" rel="noopener">Build Momentum</a>
+      <a href="https://thewildaxisgroup.com" target="_blank" rel="noopener">WILD Axis</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

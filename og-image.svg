@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#B8B8C8"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="84%" cy="-6%" r="55%">
+      <stop offset="0" stop-color="#2A7FED" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2A7FED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="6%" cy="12%" r="55%">
+      <stop offset="0" stop-color="#7C6EFA" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#7C6EFA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#09090D"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- brand row -->
+  <g transform="translate(80,76)">
+    <rect width="56" height="56" rx="16" fill="url(#mark)"/>
+    <text x="28" y="40" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-weight="900" font-size="34" fill="#09090D">O</text>
+    <text x="76" y="38" font-family="Helvetica Neue, Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="-0.5" fill="#EEEEF2">Onarvo Group</text>
+  </g>
+
+  <!-- headline -->
+  <g font-family="Helvetica Neue, Arial, sans-serif" fill="#EEEEF2">
+    <text x="80" y="300" font-weight="800" font-size="86" letter-spacing="-2">Software and services,</text>
+    <text x="80" y="396" font-weight="800" font-size="86" letter-spacing="-2">built to <tspan fill="#FFFFFF">last</tspan>.</text>
+  </g>
+
+  <!-- subline -->
+  <text x="82" y="470" font-family="Helvetica Neue, Arial, sans-serif" font-weight="400" font-size="31" fill="#7A7A8C">We build and operate software businesses and services companies.</text>
+
+  <!-- footer chips (brand colours) -->
+  <g font-family="Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="26">
+    <text x="80" y="556" fill="#2A7FED">Loaditude</text>
+    <text x="248" y="556" fill="#7A7A8C">&#183;</text>
+    <text x="278" y="556" fill="#C9D82A">Build Momentum</text>
+    <text x="560" y="556" fill="#7A7A8C">&#183;</text>
+    <text x="590" y="556" fill="#7C6EFA">Digital Garage</text>
+    <text x="838" y="556" fill="#7A7A8C">&#183;</text>
+    <text x="868" y="556" fill="#B8922A">WILD Axis</text>
+  </g>
+</svg>
