@@ -1,22 +1,23 @@
 # Status: onarvo-landing
 
-Last updated: 2 Nov 2026 (from repo history; owner to confirm anything marked unknown)
+Last updated: 9 Nov 2026
 
 ## What this is
 
-Public landing page for Onarvo Group (onarvo.com, per the repo description). Single static HTML page.
+Public landing page for Onarvo Group (onarvo.com, per the repo description). Single static HTML page with corporate governance documents.
 
 ## Current state
 
-**Paused.** Last commit 21 Jun 2026 (134 days ago): "launch(onarvo-landing): static landing page for onarvo.com". It is the only commit.
+**Active.** Published Supply Chain Payment Procedure and Action Plan (9 Nov 2026).
 
 ## Recent activity
 
+- 2026-11-09 - Published: Supply Chain Payment Procedure and Action Plan v1.0 (adopted 9 Nov 2026)
 - 2026-06-21 - Launch: static landing page for onarvo.com
 
 ## Open work
 
-None. No open PRs, issues or other branches.
+In progress: Publishing supply chain payment plan as required for public procurement compliance.
 
 ## Stack and how to run
 

@@ -2,6 +2,8 @@
   "version": 2,
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
+    { "src": "supply-chain-payment-plan.html", "use": "@vercel/static" },
+    { "src": "supply-chain-payment-plan.pdf", "use": "@vercel/static" },
     { "src": "og-image.png", "use": "@vercel/static" },
     { "src": "favicon.svg", "use": "@vercel/static" },
     { "src": "favicon-32.png", "use": "@vercel/static" },
@@ -12,6 +14,8 @@
   "routes": [
     { "src": "/robots.txt", "dest": "/robots.txt" },
     { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
+    { "src": "/supply-chain-payment-plan.html", "dest": "/supply-chain-payment-plan.html" },
+    { "src": "/supply-chain-payment-plan.pdf", "dest": "/supply-chain-payment-plan.pdf" },
     { "src": "/og-image.png", "dest": "/og-image.png" },
     { "src": "/favicon.svg", "dest": "/favicon.svg" },
     { "src": "/favicon-32.png", "dest": "/favicon-32.png" },
